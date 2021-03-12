@@ -1,5 +1,5 @@
 {
-    "name": "PlayMlodyIfRoll1_4",
+    "name": "IDiceRollMelody",
     "description": "",
     "dependencies": {
         "core": "*",

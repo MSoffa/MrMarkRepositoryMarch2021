@@ -5,6 +5,6 @@ input.onGesture(Gesture.Shake, function () {
     if (DiceRollValue == 5) {
         music.playMelody("E B C5 A B G A F ", 120)
     } else {
-        music.playMelody("F F F D - - - - ", 120)
+        music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
     }
 })
