@@ -1,4 +1,7 @@
 let DiceRollValue = 0
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Heart)
+})
 input.onGesture(Gesture.Shake, function () {
     DiceRollValue = randint(1, 6)
     basic.showNumber(DiceRollValue)
